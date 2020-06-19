@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/rps.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Odibee+Sans&display=swap"
+        rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet"> -->
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <button type="reset">Reset</button>
+    </header>
+
+    <div class="score">
+        <div id="user" class="badge">User</div>
+        <h2 id="score">
+            <span id="user-score">0</span> : <span id="comp-score">0</span>
+        </h2>
+        <div id="comp" class="badge">Comp</div>
+    </div>
+
+    <div class="result">
+        <span id="user-choice">USER'S CHOICE</span>
+        <span id="comp-choice">COMPUTER'S CHOICE</span>
+        <h2>Make your move</h2>
+
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <!-- ../folder_name/ : .. takes you out of the folder
+                 and searches the given folder name -->
+            <img src="../images/rock.png" alt="">
+        </div>
+        <div class="choice" id="p">
+            <img src="../images/paper.png" alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="../images/scissor.png" alt="">
+        </div>
+    </div>
+
+    <!-- <h2 id="move">Make your move.</h2> -->
+    <script src="../js/rps.js"></script>
+</body>
+
+</html>
