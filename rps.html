@@ -5,138 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <style>
-       *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
-
-    img{
-        background: white;
-        border-radius: 50%;
-    }
-
-    button:hover{
-    cursor: pointer;
-    color: gray;
-    }
-
-
-    img:hover{
-        background-color: grey;
-        cursor: pointer;
-    }
-
-    body{
-        font-family: 'Noto Sans JP', sans-serif;
-        /* font-family: 'Odibee Sans', cursive; */
-        /* font-family: 'Metal Mania', cursive; */
-        background-color: rgb(53, 52, 52);
-        text-align: center;
-        color: white;
-    }
-
-    header{
-        background: rgb(238, 233, 233);
-    }
-
-    header > h1{
-        padding: 2%;
-        color: black;
-        font-size: 2.5rem;
-    }
-
-    header > button{
-        padding: 0.5%;
-        font-size: 1.3rem;
-        width: 100px;
-        position: absolute;
-        top: 35px;
-        right: 30px;
-        background-color: rgb(77, 75, 75);
-        color: white;
-        border-radius: 10%;
-    }
-
-    .score{
-        width: 15%;
-        margin: 4% auto;
-        border: 5px solid white;
-        position: relative;
-    }
-
-    #score{
-        font-size: 3.5rem;
-    }
-
-    .badge{
-        display: inline-block;
-    }
-
-    #user{
-        padding: 4%;
-        background-color: rgb(228, 64, 64);
-        /* To position the user w.r.t the parent we need to add a position
-        attribute to the parent tag which should have a value other than 
-        inherit and static */
-        position: absolute;
-        top: 20px;
-        left: -38px;
-        font-size: 1.1rem;
-        font-weight: bold;
-    }
-
-    #comp{
-        padding: 3%;
-        background-color: rgb(228, 64, 64);
-        position: absolute;
-        top: 22px;
-        right: -45px;
-        font-size: 1.1rem;
-        font-weight: bold;
-
-    }
-
-    .result{
-        margin: 2% auto;
-        font-size: 1.3rem;
-        position: relative;
-    }
-
-    #user-choice{
-        position: absolute;
-        top: 0;
-        left: 250px;
-        font-size: 1.5rem;
-        width: min-content;
-    }
-
-    #comp-choice{
-        position: absolute;
-        top: 0;
-        right: 200px;
-        font-size: 1.5rem;
-        width: min-content;
-    }
-
-
-
-    .choices{
-        margin: 1% auto;
-    }
-
-    .choice{
-        margin: 2%;
-        display: inline-block;
-    }
-
-    #move{
-        margin: 0.5% auto;
-    }
-    </style>
-    <!--    <link rel="stylesheet" href="rps.css"> -->
+    <link rel="stylesheet" href="rps.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Odibee+Sans&display=swap"
         rel="stylesheet"> 
     <!-- <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet"> -->
@@ -180,7 +49,7 @@
     </div>
 
     <!-- <h2 id="move">Make your move.</h2> -->
-    <script src="../js/rps.js"></script>
+    <script src="rps.js"></script>
 </body>
 
 </html>
